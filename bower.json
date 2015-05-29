@@ -1,0 +1,8 @@
+{
+  "name": "angular-twitter",
+  "version": "0.1",
+  "description": "Web application based in Angularjs",
+  "dependencies": {
+    "angular": "latest"
+  }
+}
