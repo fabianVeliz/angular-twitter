@@ -1,0 +1,12 @@
+<h1>Tweets</h1>
+
+<ul>
+  <li ng-repeat="tweet in tweets">
+    <div class="row">Id: {{tweet.id}}</div>
+    <div class="row">Body: {{tweet.body}}</div>
+    <div class="row">Author: {{tweet.author}}</div>
+    <a href="#/tweets/{{tweet.id}}">Show</a>
+    <a href="" ng-click="remove(tweet)">Delete</a>
+  </li>
+</ul>
+

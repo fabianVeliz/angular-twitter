@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="twitter">
 <head>
   <meta charset="UTF-8">
   <title>Angular Twitter</title>
+
+  <!--Libs-->
   <script src="libs/angular/angular.js"></script>
+  <script src="libs/angular-resource/angular-resource.js"></script>
+  <script src="libs/angular-route/angular-route.js"></script>
+  <!--Libs-->
+
+  <!--Application-->
+  <script src="js/application.js"></script>
+  <script src="js/routes.js"></script>
+
+  <script src="js/controllers/tweets_controller.js"></script>
+  <script src="js/controllers/tweet_controller.js"></script>
+
+  <script src="js/factories/tweet_factory.js"></script>
+
+  <script src="js/directives/header_directive.js"></script>
+  <!--Application-->
+
 </head>
 <body>
-  <h1>Hello {{'world'}}</h1>
+  <header-template></header-template>
+  <div ng-view></div>
 </body>
 </html>

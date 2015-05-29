@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "body": "First tweet",
+    "author": "Fabián Veliz"
+  },
+  {
+    "id": 2,
+    "body": "Second tweet",
+    "author": "Frank Diels"
+  },
+  {
+    "id": 3,
+    "body": "Third tweet",
+    "author": "Guillermo Sanz"
+  }
+]

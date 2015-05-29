@@ -3,6 +3,8 @@
   "version": "0.1",
   "description": "Web application based in Angularjs",
   "dependencies": {
-    "angular": "latest"
+    "angular": "latest",
+    "angular-route": "~1.3.8",
+    "angular-resource": "~1.3.8"
   }
 }
